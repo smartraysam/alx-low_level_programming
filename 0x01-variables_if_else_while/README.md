@@ -6,3 +6,4 @@
 4- print alphabet with q  and e
 5 - print numbers
 6 print number using ascii
+7-print tebahpla
