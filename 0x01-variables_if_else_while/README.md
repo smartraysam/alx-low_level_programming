@@ -5,3 +5,4 @@
 3-print alphabets a to z and A to Z
 4- print alphabet with q  and e
 5 - print numbers
+6 print number using ascii
