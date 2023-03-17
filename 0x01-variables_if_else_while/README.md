@@ -11,3 +11,4 @@
 Print all possible combinayions of single digit number
 100-print comb 3
 101- print_comb4
+102 print comb5
