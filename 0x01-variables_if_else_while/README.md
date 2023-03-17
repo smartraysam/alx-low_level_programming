@@ -10,3 +10,4 @@
 8- print base 16
 Print all possible combinayions of single digit number
 100-print comb 3
+101- print_comb4
