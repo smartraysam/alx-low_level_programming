@@ -2,3 +2,4 @@
 0-detect positive or negative random generated number
 1-Get Last digit of  random generated number
 2-print alphabet a-z
+3-print alphabets a to z and A to Z
