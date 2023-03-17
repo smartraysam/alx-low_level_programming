@@ -8,3 +8,4 @@
 6 print number using ascii
 7-print tebahpla
 8- print base 16
+Print all possible combinayions of single digit number
