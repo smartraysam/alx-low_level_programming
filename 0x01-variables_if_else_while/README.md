@@ -9,3 +9,4 @@
 7-print tebahpla
 8- print base 16
 Print all possible combinayions of single digit number
+100-print comb 3
