@@ -7,3 +7,4 @@
 5 - print numbers
 6 print number using ascii
 7-print tebahpla
+8- print base 16
