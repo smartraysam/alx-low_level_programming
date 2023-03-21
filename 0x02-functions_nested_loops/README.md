@@ -9,4 +9,5 @@
 7-print last digit
 8-24hour
 9- times_tables
-10 - add
+10 - ad
+11 - print to 98d
