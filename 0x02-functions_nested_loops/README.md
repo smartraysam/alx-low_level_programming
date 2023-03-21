@@ -6,3 +6,4 @@
 4-isalpha.c
 5-sign.c
 6-abs
+7-print last digit
