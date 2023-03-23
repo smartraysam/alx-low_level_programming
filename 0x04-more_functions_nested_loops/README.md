@@ -12,4 +12,4 @@
 10 : Fizz Buzz 1 to 100
 11 : Print triangle	
 12 : Get largest prime factor;
-
+13: Print an integer
