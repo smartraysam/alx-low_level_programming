@@ -6,3 +6,4 @@
 4 : Print 0 to 9 using _putchar
 5 : Print 0 to 9 using _putchar without 2 and 4
 6 : Print 10 time numbers 0 to 14
+7 : Draw straight line
