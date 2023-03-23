@@ -4,3 +4,4 @@
 2 : check digit character
 3 : multiplies twi integers
 4 : Print 0 to 9 using _putchar
+5 : Print 0 to 9 using _putchar without 2 na d4
