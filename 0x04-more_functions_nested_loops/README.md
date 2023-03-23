@@ -8,3 +8,4 @@
 6 : Print 10 time numbers 0 to 14
 7 : Draw straight line
 8 : print diagonal 
+9 : Print square of size n
