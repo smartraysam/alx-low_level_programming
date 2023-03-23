@@ -2,3 +2,4 @@
 
 1 : check upper character
 2 : check digit character
+3 : multiplies twi integers
