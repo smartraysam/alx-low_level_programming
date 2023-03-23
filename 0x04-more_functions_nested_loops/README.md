@@ -10,4 +10,6 @@
 8 : print diagonal 
 9 : Print square of size 
 10 : Fizz Buzz 1 to 100
-11 : Print trianglen
+11 : Print triangle	
+12 : Get largest prime factor;
+
