@@ -4,3 +4,4 @@
 1-swap
 2-strlen
 3-puts
+4-print_rev
