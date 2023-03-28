@@ -9,3 +9,6 @@
 6-puts2
 7-put_half
 8- print_array
+9- strcpy
+100-atoi
+101-keygen
