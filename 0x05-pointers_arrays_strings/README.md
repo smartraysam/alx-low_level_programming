@@ -7,4 +7,5 @@
 4-print_rev
 5-rev_string
 6-puts2
-7-put_halfg
+7-put_half
+8- print_array
