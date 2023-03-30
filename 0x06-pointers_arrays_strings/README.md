@@ -5,4 +5,4 @@
 2-strncpy
 3-strcmp
 4-reverse_arrayp
-
+5- string_toupper
