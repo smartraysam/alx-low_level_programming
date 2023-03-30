@@ -6,4 +6,5 @@
 3-strcmp
 4-reverse_arrayp
 5- string_toupper
-5 cp_string
+6 cap_string
+7 leet
