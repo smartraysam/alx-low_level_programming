@@ -4,3 +4,5 @@
 1-strncat
 2-strncpy
 3-strcmp
+4-reverse_arrayp
+
