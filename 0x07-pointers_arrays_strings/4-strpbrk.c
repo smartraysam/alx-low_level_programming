@@ -28,6 +28,6 @@ char  *_strpbrk(char *s, char *accept)
 		else
 			return (s + i);
 	}
-	return (NULL);
+	return (0);
 }
 
