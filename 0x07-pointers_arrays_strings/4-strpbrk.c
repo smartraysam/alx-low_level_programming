@@ -26,7 +26,7 @@ char  *_strpbrk(char *s, char *accept)
 			}
 		}
 		else
-			return (s + i);
+			return (&s[i]);
 	}
 	return (0);
 }
