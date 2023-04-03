@@ -7,20 +7,25 @@
  * Return: a pointer to the beginnning of the located substring
  * or Null if no such byte is found
  */
-char  *_strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
-	int i,  j;
+	int a;
+	int b = 0;
 
-	while (haystack[i] != '\0')
+
+	while (needle[b] != '\0')
+		b++;
+	while (*haystack)
 	{
-		while (haystack[i + j] == needle[j])
+		for (a = 0; needle[a]; a++)
 		{
-			j++;
+			if (haystack[a] != needle[a])
+				break;
 		}
-
-		if (needle[j] == '\0')
-			return (&hystack[j]);
-		i++;
+		if (a != b)
+			haystack++;
+		else
+			return (haystack);
 	}
 	return (NULL);
 }
