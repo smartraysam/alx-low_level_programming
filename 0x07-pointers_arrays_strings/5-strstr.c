@@ -1,12 +1,15 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * _strstr - Function searches a substring
- * @haystack: Parameter string to check
- * @needle: Parameter accept
- * Return: a pointer to the beginnning of the located substring
- * or Null if no such byte is found
+ * _strstr - locates a substring
+ *
+ * @haystack: the longer string to search
+ * @needle: the substring to search for
+ * Return: a pointer to the beginning of the located substring, or NULL if
+ * the substring is not found.
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 	int a;
