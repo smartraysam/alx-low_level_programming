@@ -1,24 +1,35 @@
 #include "main.h"
-#include "_prime_number.c"
 
 /**
- * is_prime_number - check if prime
- * @n: number to check
- * Return: 1 if prime and 0 if not
+ * _primefactor - searches for if a number is prime
+ *
+ * @a: the number to check
+ * @b: the numbers we'll go through
+ *
+ * Return: Whether or not the number is a prime number
+ */
+
+int _primefactor(int a, int b)
+{
+	if (a <= 1 || a % b == 0)
+		return (0);
+	else if (a == b)
+		return (1);
+	else if (a > b)
+		_primefactor(a, b + 1);
+
+	return (1);
+}
+
+/**
+ * is_prime_number - tells us if an integer is a prime number or not
+ *
+ * @n: the number to check
+ *
+ * Return: 0 if the number is not prime, and 1 if it is
  */
 
 int is_prime_number(int n)
 {
-	int divisor = 3;
-
-	if (n % 2 == 0 || n < 2)
-	{
-		return (0);
-	}
-	if (n == 2)
-	{
-		return (1);
-	}
-	return (_prime_number(n, divisor));
+	return (_primefactor(n, 2));
 }
-

@@ -18,7 +18,7 @@ int _sqrt(int a, int b)
 		return (b);
 
 	else
-		return (helper(a, b + 1));
+		return (_sqrt(a, b + 1));
 
 	return (1);
 }
