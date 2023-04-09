@@ -1,0 +1,24 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - program that multiples two numbers
+ * @argc: argument counter
+ * @argv: argument vecto
+ *
+ * Return: always 0
+ */
+
+int main(int argc, char *argv[])
+{
+	int mul = 0;
+
+	if (argc > 2)
+	{
+		mul = atoi(argv[1]) *  atoi(argv[2]);
+		printf("%d\n", mul);
+	}
+	else
+		printf("%s\n", "Error");
+	return (1);
+}
