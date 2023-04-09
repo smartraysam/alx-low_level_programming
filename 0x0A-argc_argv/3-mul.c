@@ -6,17 +6,14 @@
  * @argc: argument counter
  * @argv: argument vecto
  *
- * Return: always 0
+ * Return: always 1
  */
 
 int main(int argc, char *argv[])
 {
-	int mul = 0;
-
-	if (argc > 2)
+	if (argc == 3)
 	{
-		mul = atoi(argv[1]) *  atoi(argv[2]);
-		printf("%d\n", mul);
+		printf("%d\n", atoi(argv[1]) *  atoi(argv[2]));
 	}
 	else
 		printf("%s\n", "Error");
