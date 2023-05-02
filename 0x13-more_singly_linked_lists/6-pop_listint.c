@@ -9,8 +9,8 @@
 int pop_listint(listint_t **head)
 {
 	int node_data;
-	listint_t *tmp_node;
 
+	listint_t *tmp_node;
 	if (*head == NULL)
 		return (0);
 
