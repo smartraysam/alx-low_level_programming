@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
 		if (nread > 0)
 		{
-			nwrite = write(dest, buffer, n_read);
+			nwrite = write(dest, buffer, nread);
 			if (nwrite == -1)
 				dprintf(STDERR_FILENO, WRITE_ERR, argv[2]), exit(99);
 		} else
